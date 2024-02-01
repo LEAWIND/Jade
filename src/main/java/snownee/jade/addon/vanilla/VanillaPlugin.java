@@ -186,6 +186,7 @@ public class VanillaPlugin implements IWailaPlugin {
 
 		ClientProxy.registerReloadListener(HarvestToolProvider.INSTANCE);
 
+		registration.addRayTraceCallback(-1000, JadeClient::limitMobEffectFog);
 		registration.addRayTraceCallback(-10, JadeClient::builtInOverrides);
 		registration.addRayTraceCallback(5000, DatapackBlockManager::override);
 		registration.addAfterRenderCallback(JadeClient::drawBreakingProgress);

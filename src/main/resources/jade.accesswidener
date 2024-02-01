@@ -42,3 +42,9 @@ accessible field net/minecraft/client/gui/screens/inventory/AbstractContainerScr
 
 accessible field net/minecraft/world/level/block/entity/CampfireBlockEntity cookingProgress [I
 accessible field net/minecraft/world/level/block/entity/CampfireBlockEntity cookingTime [I
+
+accessible method net/minecraft/client/renderer/FogRenderer getPriorityFogFunction (Lnet/minecraft/world/entity/Entity;F)Lnet/minecraft/client/renderer/FogRenderer$MobEffectFogFunction;
+accessible class net/minecraft/client/renderer/FogRenderer$MobEffectFogFunction
+accessible class net/minecraft/client/renderer/FogRenderer$FogData
+accessible method net/minecraft/client/renderer/LightTexture getDarknessGamma (F)F
+accessible method net/minecraft/client/renderer/LightTexture calculateDarknessScale (Lnet/minecraft/world/entity/LivingEntity;FF)F
